@@ -1,0 +1,101 @@
+@font-face {
+  font-family: tkt;
+  src: url("assets/fonts/tkt.otf");
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: tkt;
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 25px;
+}
+p {
+  margin: 2px;
+  padding: 1px 3px;
+  font-size: 28px;
+}
+i {
+  color: #0ddc58;
+}
+
+main {
+  padding: 15px 5px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+table {
+  margin-top: 5px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #2f2f2f;
+}
+tr td:first-child {
+  max-width: 64px;
+  font-size: 22px;
+  color: rgb(183, 93, 3);
+}
+img {
+  object-fit: cover;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  transition: transform 0.2s linear;
+  border-radius: 50%;
+}
+img:hover {
+  transform: scale(2.5);
+}
+.moazen {
+  border: rgb(16, 213, 223) dotted 0.5px;
+}
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hadis-container {
+  padding: 7px;
+  border-top: #444444 solid 1px;
+  border-bottom: #444444 solid 1px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hadis-person {
+  color: #0ddc58;
+  padding-bottom: 8px;
+}
+.hadis-text {
+  text-align: center;
+  font-size: 23px;
+  padding-bottom: 8px;
+}
+.hadis-source {
+  color: rgb(5, 136, 99);
+  font-size: 20px;
+}
