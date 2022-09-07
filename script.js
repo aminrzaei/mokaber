@@ -24,4 +24,4 @@ function excluder(id) {
   });
 }
 
-excluder("gholam");
+// excluder("gholam");
